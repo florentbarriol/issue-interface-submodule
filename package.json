@@ -13,7 +13,7 @@
   "author": "",
   "license": "MIT",
   "dependencies": {
-    "rescript": "*"
+    "rescript": "10.1.0"
   },
   "devDependencies": {
     "reanalyze": "^2.23.0"
