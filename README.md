@@ -1,21 +1,23 @@
-# ReScript Project Template
+# Issue with sub module and interface
 
-The only official ReScript starter template.
+This repository is intended to illustrate an issue when defining a interface for a submodule
+Reanalyze seems to not see that types and/or methods are used when they are defined in a sub module
 
 ## Installation
 
 ```sh
-npm install
+yarn install
 ```
 
 ## Build
 
-- Build: `npm run res:build`
-- Clean: `npm run res:clean`
-- Build & watch: `npm run res:start`
+- Build: `yarn res:build`
+- Clean: `yarn res:clean`
+- Build & watch: `yarn res:start`
+- Start Reanalyze: `yarn reanalyze`
 
 ## Run
 
 ```sh
-node src/Demo.bs.js
+node src/App.bs.js
 ```
